@@ -1,0 +1,580 @@
+<mxfile host="app.diagrams.net" modified="2024-05-11T15:39:02.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0 (Edition std-1)" etag="HP8seB6rJag80ZxMYsMz" version="24.4.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2786" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Tariningsdaten einlesen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-0" value="Pipeline Predict20/Predict1Year" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=250;height=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="40" width="360" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-1" value="Daten vorbereiten und normalisieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-2" value="Eingabedaten für Modell herunterladen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-3" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.75" y="180" as="sourcePoint" />
+            <mxPoint x="129.75" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-4" value="Sequenzen der Trainingsdaten erstellen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-5" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73" y="270" as="sourcePoint" />
+            <mxPoint x="129.73" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-6" value="Daten in Trainings-, Validations- und Testdaten aufteilen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="360" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-8" value="Modell definieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-9" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73" y="450" as="sourcePoint" />
+            <mxPoint x="129.73" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-10" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="540" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-11" value="Modell evaluieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-12" value="Modell speichern" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="670" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-13" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73999999999998" y="630" as="sourcePoint" />
+            <mxPoint x="129.73999999999998" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-14" value="Vorhersage überprüfen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="760" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73999999999998" y="720" as="sourcePoint" />
+            <mxPoint x="129.73999999999998" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-18" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="220" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-19" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="220" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-20" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-0" source="Cf4axvwulH_Esh14Sne0-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="910" as="sourcePoint" />
+            <mxPoint x="190" y="875" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-21" value="Daten des zu vorsagenden Zeitraums einlesen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-22" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76" y="810" as="sourcePoint" />
+            <mxPoint x="129.76" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-23" value="Vorhersage mit wirklichem Aktienwert vergleichen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="940" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-24" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73999999999998" y="900" as="sourcePoint" />
+            <mxPoint x="129.73999999999998" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-71" value="Ergebnis in .json-Datei abspeichern" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-0" vertex="1">
+          <mxGeometry x="70" y="1030" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-72" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="990" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-17" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Cf4axvwulH_Esh14Sne0-18" target="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="140" as="sourcePoint" />
+            <mxPoint x="230" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-27" value="Pipeline Mean-Variance-Model (MVM) &amp;amp; MVM modified" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=250;height=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="860" y="40" width="590" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-28" value="Extrahieren des Schlusskurses des letzten Tages vor dem vorherzusagen-den Zeitraums" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-29" value="Vorhersagen einlesen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-30" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73" y="100" as="sourcePoint" />
+            <mxPoint x="129.73" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-31" value="Vorhergesagten Aktienkurs in erwartete Rendite in % konvertieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-33" value="Profit aus der letzten Periode einlesen (nur bei aktiv-verwlteten Portfolio)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-34" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73999999999998" y="210" as="sourcePoint" />
+            <mxPoint x="129.73999999999998" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-35" value="Profit von der letzten Periode gespeichert in .json-Datei" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="220" y="625" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-37" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="490" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-38" value="Einlesen von der vorherzusagenden Periode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-39" value="Schlusskurs extrahieren für die spätere Bewertung des Portfolios" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-41" value="Historische Daten aus dem vorherigen Jahr einlesen und in einer Tabelle zusammenführen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-42" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="870" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-43" value="Einlesen der Daten für den zu Vorhersagenden Zeitraum" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-46" value="Mean-Varianz-Optimierung und Portfolioallokation durchführen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-48" value="Simulation der Wertentwicklung für einen Monat bzw. einem Jahr" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="420" y="45" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-51" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="220" y="45" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-52" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="69.86" as="sourcePoint" />
+            <mxPoint x="190" y="69.86" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-54" value="Vorhersagen von Predict20/Predict1Year in .json-Datei gespeichert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="220" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-57" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="274.83" as="sourcePoint" />
+            <mxPoint x="190" y="274.83" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-58" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76" y="300" as="sourcePoint" />
+            <mxPoint x="129.76" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-59" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="649.86" as="sourcePoint" />
+            <mxPoint x="190" y="649.86" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-61" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="680" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-62" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="220" y="720" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-63" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="744.83" as="sourcePoint" />
+            <mxPoint x="190" y="744.83" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-64" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73000000000002" y="770" as="sourcePoint" />
+            <mxPoint x="129.73000000000002" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-65" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="220" y="890" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-66" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1" source="Cf4axvwulH_Esh14Sne0-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="950" as="sourcePoint" />
+            <mxPoint x="190" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="915" />
+              <mxPoint x="210" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-67" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="990" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-68" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1" target="Cf4axvwulH_Esh14Sne0-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73000000000002" y="1090" as="sourcePoint" />
+            <mxPoint x="129.73000000000002" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1100" />
+              <mxPoint x="380" y="1100" />
+              <mxPoint x="380" y="20" />
+              <mxPoint x="480" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-69" value="Ergebnis (Profit) in .json-Datei abspeichern" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="420" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-70" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.77" y="100" as="sourcePoint" />
+            <mxPoint x="479.77" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-73" value="Dividenden in die Vorhersagen miteinfließen lassen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="Cf4axvwulH_Esh14Sne0-27" vertex="1">
+          <mxGeometry x="70" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf4axvwulH_Esh14Sne0-107" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="Cf4axvwulH_Esh14Sne0-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.74" y="390" as="sourcePoint" />
+            <mxPoint x="129.74" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-0" value="Risikofreie Rendite zu Vorhersagen hinzufügen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry x="70" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.74" y="580" as="sourcePoint" />
+            <mxPoint x="129.74" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-2" value="Hinzufügen des risikofreien &quot;Schlusskurses&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry x="220" y="815" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-3" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="840" as="sourcePoint" />
+            <mxPoint x="190" y="840" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-4" value="Hinzufügen der risikokofreien Anlage" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry x="220" y="960" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-5" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cf4axvwulH_Esh14Sne0-27" source="7r-0wV_OuT9NUW6ucxpt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="950" as="sourcePoint" />
+            <mxPoint x="210" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-143" value="Dividenen aus in Excel-Datei gespeichert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry x="220" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-144" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cf4axvwulH_Esh14Sne0-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="364.86" as="sourcePoint" />
+            <mxPoint x="190" y="364.86" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-46" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7r-0wV_OuT9NUW6ucxpt-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-47" value="Profit einlesen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1770" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-48" value="Statistical prediction + MVM / MVM modified" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=250;height=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1700" y="40" width="600" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-64" value="Profit in .json-Datei gespeichert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-96" value="Simulation der Wertentwicklung für einen Monat bzw. einem Jahr" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="420" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-97" value="Ergebnis (Profit) in .json-Datei abspeichern" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="420" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-98" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.77" y="200" as="sourcePoint" />
+            <mxPoint x="479.77" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-141" value="Dividenden verarbeiten" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-142" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.75" y="220" as="targetPoint" />
+            <mxPoint x="129.75" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-145" value="Dividenen aus in Excel-Datei gespeichert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-146" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="154.86" as="sourcePoint" />
+            <mxPoint x="190" y="154.86" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-49" value="Daten vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-50" value="Aktienwerte zum Beginn der Periode extrahieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-51" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.72000000000003" y="360" as="sourcePoint" />
+            <mxPoint x="129.72000000000003" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-52" value="Aktienwerte zum Ende der Periode extrahieren" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-53" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76" y="450" as="sourcePoint" />
+            <mxPoint x="129.76" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-54" value="Daten der ver-gangenen Jahre in Blöcken zu je 20 (1 Monat = 20 Werk-tage) Werten aufteilen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-55" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.72000000000003" y="540" as="sourcePoint" />
+            <mxPoint x="129.72000000000003" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-56" value="Rendite pro Monat berechnen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-57" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.72000000000003" y="660" as="sourcePoint" />
+            <mxPoint x="129.72000000000003" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-58" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.72000000000003" y="750" as="sourcePoint" />
+            <mxPoint x="129.72000000000003" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-59" value="Durchschnittsrendite der letzten Jahre errechnen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="790" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-60" value="Standardabweichung bestimmen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="880" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-61" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.76999999999998" y="840" as="sourcePoint" />
+            <mxPoint x="129.76999999999998" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-78" value="Daten der vergangenen Jahre einlesen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-79" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-80" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-79" target="7r-0wV_OuT9NUW6ucxpt-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-81" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.74" y="310" as="targetPoint" />
+            <mxPoint x="129.74" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-82" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-83" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-82" target="7r-0wV_OuT9NUW6ucxpt-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="sourcePoint" />
+            <mxPoint x="190" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="395" />
+              <mxPoint x="210" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-84" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-85" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="550" as="sourcePoint" />
+            <mxPoint x="190" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="555" />
+              <mxPoint x="210" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-86" value="Historische Daten aus dem vorherigen Jahr einlesen und in einer Tabelle zusammenführen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="70" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-87" value="Downloaden von Yahoo Finance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="950" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-88" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1010" as="sourcePoint" />
+            <mxPoint x="190" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="975" />
+              <mxPoint x="210" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-89" value="Hinzufügen der risikokofreien Anlage" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="1020" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-90" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1010" as="sourcePoint" />
+            <mxPoint x="210" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-91" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.73000000000002" y="930" as="sourcePoint" />
+            <mxPoint x="129.73000000000002" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-99" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" target="7r-0wV_OuT9NUW6ucxpt-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1050" as="sourcePoint" />
+            <mxPoint x="490" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1090" />
+              <mxPoint x="380" y="1090" />
+              <mxPoint x="380" y="20" />
+              <mxPoint x="480" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-147" value="Hinzufügen des risikofreien &quot;Schlusskurses&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-150" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48" source="7r-0wV_OuT9NUW6ucxpt-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="430" as="sourcePoint" />
+            <mxPoint x="210" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-151" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=none;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="470" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="520" />
+              <mxPoint x="210" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-152" value="Dividenden hinzufügen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="220" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-153" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="724.8199999999999" as="sourcePoint" />
+            <mxPoint x="190" y="724.8199999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-92" value="Mean-Varianz-Optimierung und Portfolioallokation durchführen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry x="420" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-155" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7r-0wV_OuT9NUW6ucxpt-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.75" y="140" as="targetPoint" />
+            <mxPoint x="479.75" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7r-0wV_OuT9NUW6ucxpt-73" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7r-0wV_OuT9NUW6ucxpt-64" target="7r-0wV_OuT9NUW6ucxpt-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="140" as="sourcePoint" />
+            <mxPoint x="1840" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
